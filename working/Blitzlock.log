@@ -1,0 +1,61 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: Blitzlock.map
+Output file: Blitzlock.bsp
+
+---- LoadMapFile ----
+         1524 faces
+          254 brushes
+           38 entities
+            2 unique texnames
+          453 texinfo
+
+Opened WAD: D:/QuakeDev/wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          254 brushes
+          262 planes
+---- CSGFaces ----
+         1524 brushfaces
+         2251 csgfaces
+         1959 mergedfaces
+---- SolidBSP ----
+         2404 split nodes
+         1046 solid leafs
+         1359 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         5939 leaffaces
+         5578 nodefaces
+---- Portalize ----
+         1359 vis leafs
+         1359 vis clusters
+         3774 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-1080 -1800 168), no filling performed.
+Leak file written to Blitzlock.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote Blitzlock.bsp
+          402 planes             8040
+         6726 vertexes          80712
+         2404 nodes             57696
+          393 texinfo           15720
+         5578 faces            111560
+         1575 clipnodes         12600
+         1360 leafs             38080
+         5939 marksurfaces      11878
+        22312 surfedges         89248
+        14342 edges             57368
+            2 textures          43612
+              lightdata             0
+              visdata               0
+              entdata            2839
+
+0.332 seconds elapsed
+Peak memory usage: 25023386 (23.9M)
