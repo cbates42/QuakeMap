@@ -1,6 +1,6 @@
 ---- qbsp / ericw-tools v0.18.1 ----
-Input file: Blitzlock.map
-Output file: Blitzlock.bsp
+Input file: dungeon.map
+Output file: dungeon.bsp
 
 ---- LoadMapFile ----
          1524 faces
@@ -35,13 +35,13 @@ Processing hull 0...
          3742 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-1304 1384 -312), no filling performed.
-Leak file written to Blitzlock.pts
+Leak file written to dungeon.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
-Wrote Blitzlock.bsp
+Wrote dungeon.bsp
           399 planes             7980
          6684 vertexes          80208
          2386 nodes             57264
@@ -57,5 +57,5 @@ Wrote Blitzlock.bsp
               visdata               0
               entdata            1804
 
-1.441 seconds elapsed
+0.530 seconds elapsed
 Peak memory usage: 24888908 (23.7M)
