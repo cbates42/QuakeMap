@@ -1,36 +1,36 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 12 threads
-LoadBSPFile: 'Blitzlock.bsp'
+LoadBSPFile: 'dungeon.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (-680 -280 -408) (light) has empty key/value "value" ""
-WARNING: entity at (-1176 -472 152) (light) has empty key/value "mangle" ""
-WARNING: Not 3 values for mangle
-38 entities read, 26 are lights.
+275 entities read, 246 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	3752 solid faces
+	6461 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 26 initial lights
-SetupLights: 26 after surface lights
-SetupLights: 26 after jittering
+SetupLights: 246 initial lights
+SetupLights: 246 after surface lights
+SetupLights: 246 after jittering
+WARNING: couldn't nudge light in solid at -1192.000000 1944.000000 -120.000000
+WARNING: couldn't nudge light in solid at -1160.000000 1240.000000 72.000000
+WARNING: couldn't nudge light in solid at -872.000000 1240.000000 72.000000
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7....8....9...
-Final count: 26 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 246 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 67157
+lightdatasize: 151141
 0 switchable light styles (32 max)
-Writing Blitzlock.bsp as BSP version 29
-0.229 seconds elapsed
+Writing dungeon.bsp as BSP version 29
+0.314 seconds elapsed
 
 stats:
-0.204962 lights tested, 0.163096 hits per sample point
+1.719897 lights tested, 1.315678 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

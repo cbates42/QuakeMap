@@ -4363,49 +4363,5 @@
 // entity 266
 {
 "classname" "light"
-"origin" "-1912 1432 40"
-}
-// entity 267
-{
-"classname" "light"
-"origin" "-1192 1448 40"
-}
-// entity 268
-{
-"classname" "light"
-"origin" "-584 1448 40"
-"angle" "180"
-}
-// entity 269
-{
-"classname" "light"
-"origin" "-2488 72 136"
-}
-// entity 270
-{
-"classname" "light"
-"origin" "-1128 1608 104"
-}
-// entity 271
-{
-"classname" "light"
-"origin" "-872 1608 136"
-"angle" "180"
-}
-// entity 272
-{
-"classname" "light"
-"origin" "328 -56 40"
-"angle" "180"
-}
-// entity 273
-{
-"classname" "light"
-"origin" "-1144 -1496 152"
-}
-// entity 274
-{
-"classname" "light"
-"origin" "-872 -1480 136"
-"angle" "180"
+"origin" "-1992 1496 40"
 }

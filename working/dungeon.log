@@ -3,36 +3,37 @@ Input file: dungeon.map
 Output file: dungeon.bsp
 
 ---- LoadMapFile ----
-         1524 faces
-          254 brushes
-           26 entities
-            2 unique texnames
-          453 texinfo
+         1860 faces
+          310 brushes
+          275 entities
+            5 unique texnames
+          577 texinfo
 
 Opened WAD: D:/QuakeDev/wads/prototype_1_2.wad
+Opened WAD: D:/QuakeDev/wads/id1.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          254 brushes
-          262 planes
+          310 brushes
+          292 planes
 ---- CSGFaces ----
-         1524 brushfaces
-         2221 csgfaces
-         1936 mergedfaces
+         1860 brushfaces
+         2626 csgfaces
+         2341 mergedfaces
 ---- SolidBSP ----
-         2386 split nodes
-         1038 solid leafs
-         1349 empty leafs
+         3109 split nodes
+         1348 solid leafs
+         1762 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         5886 leaffaces
-         5540 nodefaces
+         6956 leaffaces
+         6461 nodefaces
 ---- Portalize ----
-         1349 vis leafs
-         1349 vis clusters
-         3742 vis portals
+         1762 vis leafs
+         1762 vis clusters
+         4950 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-1304 1384 -312), no filling performed.
 Leak file written to dungeon.pts
@@ -42,20 +43,20 @@ Processing hull 1...
 Processing hull 2...
 ---- WriteBSPFile ----
 Wrote dungeon.bsp
-          399 planes             7980
-         6684 vertexes          80208
-         2386 nodes             57264
-          390 texinfo           15600
-         5540 faces            110800
-         1575 clipnodes         12600
-         1350 leafs             37800
-         5886 marksurfaces      11772
-        22160 surfedges         88640
-        14227 edges             56908
-            2 textures          43612
+          422 planes             8440
+         7812 vertexes          93744
+         3109 nodes             74616
+          500 texinfo           20000
+         6461 faces            129220
+         1957 clipnodes         15656
+         1763 leafs             49364
+         6956 marksurfaces      13912
+        25844 surfedges        103376
+        16583 edges             66332
+            5 textures          60064
               lightdata             0
               visdata               0
-              entdata            1804
+              entdata           18345
 
-0.530 seconds elapsed
-Peak memory usage: 24888908 (23.7M)
+0.354 seconds elapsed
+Peak memory usage: 28241224 (26.9M)
