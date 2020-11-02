@@ -4,7 +4,7 @@ running with 12 threads
 LoadBSPFile: 'dungeon.bsp'
 BSP is version 29
 --- LoadEntities ---
-275 entities read, 246 are lights.
+277 entities read, 248 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -12,25 +12,25 @@ Embree_TraceInit:
 	6461 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 246 initial lights
-SetupLights: 246 after surface lights
-SetupLights: 246 after jittering
+SetupLights: 248 initial lights
+SetupLights: 248 after surface lights
+SetupLights: 248 after jittering
 WARNING: couldn't nudge light in solid at -1192.000000 1944.000000 -120.000000
 WARNING: couldn't nudge light in solid at -1160.000000 1240.000000 72.000000
 WARNING: couldn't nudge light in solid at -872.000000 1240.000000 72.000000
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 246 lights 0 suns in use.
+Final count: 248 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 151141
+lightdatasize: 151769
 0 switchable light styles (32 max)
 Writing dungeon.bsp as BSP version 29
-0.314 seconds elapsed
+0.337 seconds elapsed
 
 stats:
-1.719897 lights tested, 1.315678 hits per sample point
+1.742378 lights tested, 1.332230 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

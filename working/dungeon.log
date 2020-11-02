@@ -5,7 +5,7 @@ Output file: dungeon.bsp
 ---- LoadMapFile ----
          1860 faces
           310 brushes
-          275 entities
+          277 entities
             5 unique texnames
           577 texinfo
 
@@ -56,7 +56,7 @@ Wrote dungeon.bsp
             5 textures          60064
               lightdata             0
               visdata               0
-              entdata           18345
+              entdata           18471
 
-0.354 seconds elapsed
-Peak memory usage: 28241224 (26.9M)
+0.359 seconds elapsed
+Peak memory usage: 28241368 (26.9M)
